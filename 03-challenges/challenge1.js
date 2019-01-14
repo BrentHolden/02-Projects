@@ -28,18 +28,15 @@
 
 // I did not have the below finished prior to the start of class on the due date.
 
-let orArr = [1, 2, 3, 4];
-let eArr = [2,4,6,8,10];
-let oArr = [1,3,5,7,9];
-// for(let i = 0; i < oArr.length; i++){
-//     console.log(i);
-// }
-// for(let i = 0; i < eArr.length; i++) {
-//     console.log(i);
-// }
-for (let i = 0; i < eArr.length; i++) {
-    let eArr = oArr[i]; {
-        console.log(orArr[i]);
-    }
-    
-}
+// let words3 = ['milk', 'racecar', 'magic', 'tacocat', 'richard', 'wow', 'goober', 'topspot']
+	
+// 	words3.forEach(original => {
+// 	    let palindrome = original.split("").reverse().join("");
+	
+// 	    switch (true) {
+// 	       case original === palindrome:
+// 	        console.log(`Congratulations, ${original} is a palindrome!`);
+// 	        break;
+// 	    default:
+// 	         console.log(`Sorry, ${original} is not a palindrome!`);
+// 	}})

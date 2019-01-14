@@ -1,15 +1,14 @@
-originalObject = {
-    age: 19,
-    name: 'Luke Skywalker',
-    eyeColor: 'blue',
-    isJedi: true
-   };
-   Output:
-   
-   newObject = {
-    19: 'age',
-    'Luke Skywalker': 'name',
-    blue: 'eyeColor',
-    true: 'isJedi'
-   };
-   
+let myCar = {
+    make: 'Nissan', 
+    model: 'Versa',
+    tires: 4, 
+    color: 'White',
+    seats: 5,
+};
+
+let myCar2 = {};
+
+Object.keys(myCar).forEach(i => {
+    myCar2[myCar[i]] = i;
+    })
+console.log(myCar2);
